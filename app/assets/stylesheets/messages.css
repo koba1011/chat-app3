@@ -12,13 +12,44 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.room {
+.header-name a {
+  color: #FAFAFA;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.room-create {
+  font-size: 10px;
+}
+
+.room-create a {
+  text-decoration: none;
+  border: solid 1px lightblue;
+  color: deepskyblue;
+  padding: 14px;
+}
+
+.rooms {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding:  0 20px;
+  overflow: scroll;
 }
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  color: white;
+  text-decoration: none;
+}
+
 
 .main-chat {
   background-color: #ffffff;
@@ -30,6 +61,7 @@
   height: 100px;
   padding: 0 40px;
 }
+
 
 .messages {
   background-color: #FAFAFA;
